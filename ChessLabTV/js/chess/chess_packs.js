@@ -76,15 +76,11 @@ $.extend(ChessPack.prototype, {
       {
           console.log("ChessPack.setChessPack("+packID+")");
 
-          this.img_chess_number = 0;
-          this._setTxtValue("text_problem_desc", this.getTxtProblemDesc());
-
           if (packID == PACK_ID_M001) {
 
               this.PACK_PREFIX = PACK_M001_PREFIX;
               this.PACK_SIZE   = PACK_M001_SIZE;
               this.PACK_PATH   = PACK_M001_PATH;
-              return;
           }
 
           if (packID == PACK_ID_M002) {
@@ -92,7 +88,6 @@ $.extend(ChessPack.prototype, {
               this.PACK_PREFIX = PACK_M002_PREFIX;
               this.PACK_SIZE   = PACK_M002_SIZE;
               this.PACK_PATH   = PACK_M002_PATH;
-              return;
           }
 
           if (packID == PACK_ID_M003) {
@@ -100,7 +95,6 @@ $.extend(ChessPack.prototype, {
               this.PACK_PREFIX = PACK_M003_PREFIX;
               this.PACK_SIZE   = PACK_M003_SIZE;
               this.PACK_PATH   = PACK_M003_PATH;
-              return;
           }
 
           if (packID == PACK_ID_M004) {
@@ -108,7 +102,6 @@ $.extend(ChessPack.prototype, {
               this.PACK_PREFIX = PACK_M004_PREFIX;
               this.PACK_SIZE   = PACK_M004_SIZE;
               this.PACK_PATH   = PACK_M004_PATH;
-              return;
           }
 
           if (packID == PACK_ID_T001) {
@@ -116,7 +109,6 @@ $.extend(ChessPack.prototype, {
               this.PACK_PREFIX = PACK_T001_PREFIX;
               this.PACK_SIZE   = PACK_T001_SIZE;
               this.PACK_PATH   = PACK_T001_PATH;
-              return;
           }
 
           if (packID == PACK_ID_T002) {
@@ -124,7 +116,6 @@ $.extend(ChessPack.prototype, {
               this.PACK_PREFIX = PACK_T002_PREFIX;
               this.PACK_SIZE   = PACK_T002_SIZE;
               this.PACK_PATH   = PACK_T002_PATH;
-              return;
           }
 
           if (packID == PACK_ID_T003) {
@@ -132,7 +123,6 @@ $.extend(ChessPack.prototype, {
               this.PACK_PREFIX = PACK_T003_PREFIX;
               this.PACK_SIZE   = PACK_T003_SIZE;
               this.PACK_PATH   = PACK_T003_PATH;
-              return;
           }
 
           if (packID == PACK_ID_T004) {
@@ -140,8 +130,10 @@ $.extend(ChessPack.prototype, {
               this.PACK_PREFIX = PACK_T004_PREFIX;
               this.PACK_SIZE   = PACK_T004_SIZE;
               this.PACK_PATH   = PACK_T004_PATH;
-              return;
           }
+
+          this.img_chess_number = 0;
+          this._setTxtValue("text_problem_desc", this.getTxtProblemDesc());
 
           return;
       },
@@ -180,6 +172,8 @@ $.extend(ChessPack.prototype, {
           var max = this.PACK_SIZE +1;
 
           var txt = "Problema ["+num+" / "+max+"]";
+
+          return txt;
 
       },
 
