@@ -80,8 +80,6 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_M001) {
 
-              console.log("ChessPack.setChessPack(PACK_ID_M001)");
-
               this.PACK_PREFIX = PACK_M001_PREFIX;
               this.PACK_SIZE   = PACK_M001_SIZE;
               this.PACK_PATH   = PACK_M001_PATH;
@@ -89,8 +87,6 @@ $.extend(ChessPack.prototype, {
           }
 
           if (packID == PACK_ID_M002) {
-
-              console.log("ChessPack.setChessPack(PACK_ID_M002)");
 
               this.PACK_PREFIX = PACK_M002_PREFIX;
               this.PACK_SIZE   = PACK_M002_SIZE;
@@ -100,8 +96,6 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_M003) {
 
-              console.log("ChessPack.setChessPack(PACK_ID_M003)");
-
               this.PACK_PREFIX = PACK_M003_PREFIX;
               this.PACK_SIZE   = PACK_M003_SIZE;
               this.PACK_PATH   = PACK_M003_PATH;
@@ -109,8 +103,6 @@ $.extend(ChessPack.prototype, {
           }
 
           if (packID == PACK_ID_M004) {
-
-              console.log("ChessPack.setChessPack(PACK_ID_M004)");
 
               this.PACK_PREFIX = PACK_M004_PREFIX;
               this.PACK_SIZE   = PACK_M004_SIZE;
@@ -120,8 +112,6 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_T001) {
 
-              console.log("ChessPack.setChessPack(PACK_ID_T001)");
-
               this.PACK_PREFIX = PACK_T001_PREFIX;
               this.PACK_SIZE   = PACK_T001_SIZE;
               this.PACK_PATH   = PACK_T001_PATH;
@@ -129,8 +119,6 @@ $.extend(ChessPack.prototype, {
           }
 
           if (packID == PACK_ID_T002) {
-
-              console.log("ChessPack.setChessPack(PACK_ID_T002)");
 
               this.PACK_PREFIX = PACK_T002_PREFIX;
               this.PACK_SIZE   = PACK_T002_SIZE;
@@ -140,8 +128,6 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_T003) {
 
-              console.log("ChessPack.setChessPack(PACK_ID_T003)");
-
               this.PACK_PREFIX = PACK_T003_PREFIX;
               this.PACK_SIZE   = PACK_T003_SIZE;
               this.PACK_PATH   = PACK_T003_PATH;
@@ -149,8 +135,6 @@ $.extend(ChessPack.prototype, {
           }
 
           if (packID == PACK_ID_T004) {
-
-              console.log("ChessPack.setChessPack(PACK_ID_T004)");
 
               this.PACK_PREFIX = PACK_T004_PREFIX;
               this.PACK_SIZE   = PACK_T004_SIZE;
