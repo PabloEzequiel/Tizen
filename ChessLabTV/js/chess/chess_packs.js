@@ -74,9 +74,10 @@ $.extend(ChessPack.prototype, {
 
       setChessPack: function(packID)
       {
-          console.log("ChessPack.setChessPack("+packID+") pp");
+          console.log("ChessPack.setChessPack("+packID+")");
 
           this.img_chess_number = 0;
+          this._setTxtValue("text_problem_desc", this.getTxtProblemDesc());
 
           if (packID == PACK_ID_M001) {
 
@@ -153,8 +154,11 @@ $.extend(ChessPack.prototype, {
 
         this._setImageSource("img_chess", this._getImageNameWithPath())
 
+        this._setTxtValue("text_problem_desc", this.getTxtProblemDesc());
+
         return;
       },
+
 
       doPrevButton: function()
       {
@@ -164,9 +168,20 @@ $.extend(ChessPack.prototype, {
 
         this._setImageSource("img_chess", this._getImageNameWithPath())
 
+        this._setTxtValue("text_problem_desc", this.getTxtProblemDesc());
+
         return;
+
       },
 
+
+      getTxtProblemDesc: function() {
+          var num = this.img_chess_number +1;
+          var max = this.PACK_SIZE +1;
+
+          var txt = "Problema ["+num+" / "+max+"]";
+
+      },
 
       getImageName: function() {
 
@@ -201,6 +216,10 @@ $.extend(ChessPack.prototype, {
 
       _setImageSource: function(imageId, imageSrc) {
         $('#' + imageId).attr('src', imageSrc);
+      },
+
+      _setTxtValue: function(tagId, txtValue) {
+        $('#' + tagId).text(txtValue);
       },
 
       _next: function() {
@@ -242,6 +261,7 @@ $.extend(ChessPack.prototype, {
         console.log("ChessPack.init(packID="+packID+")");
 
         this.setChessPack(packID);
+
 
       }
 

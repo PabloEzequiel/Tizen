@@ -1,2 +1,25 @@
 body {
 }
+
+/*
+
+
+*/
+
+#buttonsImages {
+
+text-align: right;
+white-space: nowrap;
+}
+
+#buttonsImages img {
+    width: 36px;
+}
+
+
+.txtSolution {
+
+text-align: right;
+float: right;
+
+}
