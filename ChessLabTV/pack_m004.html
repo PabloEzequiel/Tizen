@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<div data-role="page" id="chess_packs_page_m002" class="type-interior" data-theme="a">
+<div data-role="page" id="chess_packs_page_m004" class="type-interior" data-theme="a">
     <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="a">
         <h1>ChessLab TV</h1>
         <a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
@@ -30,9 +30,16 @@
 
     <div data-role="content" data-theme="a">
         <div class="content-primary">
-            <h2>Encuentra el Jaque Mate en #2 jugadas (d)</h2>
+            <h2>Encuentra el Jaque Mate en #4 jugadas</h2>
 
-            <p>This is Section 2.</p>
+			<img id="img_chess" alt="jaque mate en dos" src="images/chess/pack_m001/chess_mate1_00000.png">
+
+            <p>This is Section 1. (a)</p>
+            <h2 id="text_hint_solution">solution...</h2>
+
+
+
+
         </div><!--/content-primary -->
 
         <div class="content-secondary">
@@ -56,3 +63,53 @@
 </div><!-- /page -->
 </body>
 </html>
+
+<!--
+<script>
+
+// Chess Solutions Section
+
+var chessPack = new ChessPack();
+
+//
+$('#img_chess').on({
+    'click': function(){
+        button_doNext();
+    }
+});
+
+function button_doNext() {
+    chessPack.doNextButton();
+}
+
+function button_doPrev() {
+    chessPack.doPrevButton();
+}
+
+//---------------------
+
+
+// Chess Solutions Section
+
+var chessSolutions = new ChessSolutions();
+
+$('#button_hint_solution').on({
+    'click': function(){
+        button_showSolution();
+    }
+});
+
+function button_showSolution() {
+
+   var chessImageName = chessPack.getImageName();
+   var solution  = chessSolutions.getChessSolution(chessImageName);
+
+   _setTxtValue("text_hint_solution", solution);
+}
+
+function _setTxtValue(tagId, txtValue) {
+  $('#' + tagId).text(txtValue);
+}
+
+</script>
+-->
