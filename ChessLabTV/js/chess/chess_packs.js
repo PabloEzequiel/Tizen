@@ -54,7 +54,8 @@ var PACK_T002_PATH = "images/chess/pack_T004/";
 
 
 
-var ChessPack = function() {
+
+var ChessPack = function(packID) {
 
   console.log("ChessPack creation");
 
@@ -71,93 +72,89 @@ var ChessPack = function() {
 
 $.extend(ChessPack.prototype, {
 
-/*
-https://forum.jquery.com/topic/creating-a-class-object-with-jquery
-
-var chessPack = new ChessPack();
-chessPack.setChessPack
-
-var mycircle = new Circle(100, 200, 50);
-alert(mycircle.r + ' -> ' + mycircle.area());
-
-      area: function() {
-            return Math.PI * this.r * this.r;
-      },
-
-      diameter: function() {
-            return 2 * this.r;
-      }
-      */
-
-
-
       setChessPack: function(packID)
       {
-          console.log("ChessPack.setChessPack("+packID+")");
+          console.log("ChessPack.setChessPack("+packID+") pp");
 
           this.img_chess_number = 0;
 
           if (packID == PACK_ID_M001) {
 
-              this.PACK_PREFIX = this.PACK_M001_PREFIX;
-              this.PACK_SIZE   = this.PACK_M001_SIZE;
-              this.PACK_PATH   = this.PACK_M001_PATH;
+              console.log("ChessPack.setChessPack(PACK_ID_M001)");
+
+              this.PACK_PREFIX = PACK_M001_PREFIX;
+              this.PACK_SIZE   = PACK_M001_SIZE;
+              this.PACK_PATH   = PACK_M001_PATH;
               return;
           }
 
           if (packID == PACK_ID_M002) {
 
-              this.PACK_PREFIX = this.PACK_M002_PREFIX;
-              this.PACK_SIZE   = this.PACK_M002_SIZE;
-              this.PACK_PATH   = this.PACK_M002_PATH;
+              console.log("ChessPack.setChessPack(PACK_ID_M002)");
+
+              this.PACK_PREFIX = PACK_M002_PREFIX;
+              this.PACK_SIZE   = PACK_M002_SIZE;
+              this.PACK_PATH   = PACK_M002_PATH;
               return;
           }
 
           if (packID == PACK_ID_M003) {
 
-              this.PACK_PREFIX = this.PACK_M003_PREFIX;
-              this.PACK_SIZE   = this.PACK_M003_SIZE;
-              this.PACK_PATH   = this.PACK_M003_PATH;
+              console.log("ChessPack.setChessPack(PACK_ID_M003)");
+
+              this.PACK_PREFIX = PACK_M003_PREFIX;
+              this.PACK_SIZE   = PACK_M003_SIZE;
+              this.PACK_PATH   = PACK_M003_PATH;
               return;
           }
 
           if (packID == PACK_ID_M004) {
 
-              this.PACK_PREFIX = this.PACK_M004_PREFIX;
-              this.PACK_SIZE   = this.PACK_M004_SIZE;
-              this.PACK_PATH   = this.PACK_M004_PATH;
+              console.log("ChessPack.setChessPack(PACK_ID_M004)");
+
+              this.PACK_PREFIX = PACK_M004_PREFIX;
+              this.PACK_SIZE   = PACK_M004_SIZE;
+              this.PACK_PATH   = PACK_M004_PATH;
               return;
           }
 
           if (packID == PACK_ID_T001) {
 
-              this.PACK_PREFIX = this.PACK_T001_PREFIX;
-              this.PACK_SIZE   = this.PACK_T001_SIZE;
-              this.PACK_PATH   = this.PACK_T001_PATH;
+              console.log("ChessPack.setChessPack(PACK_ID_T001)");
+
+              this.PACK_PREFIX = PACK_T001_PREFIX;
+              this.PACK_SIZE   = PACK_T001_SIZE;
+              this.PACK_PATH   = PACK_T001_PATH;
               return;
           }
 
           if (packID == PACK_ID_T002) {
 
-              this.PACK_PREFIX = this.PACK_T002_PREFIX;
-              this.PACK_SIZE   = this.PACK_T002_SIZE;
-              this.PACK_PATH   = this.PACK_T002_PATH;
+              console.log("ChessPack.setChessPack(PACK_ID_T002)");
+
+              this.PACK_PREFIX = PACK_T002_PREFIX;
+              this.PACK_SIZE   = PACK_T002_SIZE;
+              this.PACK_PATH   = PACK_T002_PATH;
               return;
           }
 
           if (packID == PACK_ID_T003) {
 
-              this.PACK_PREFIX = this.PACK_T003_PREFIX;
-              this.PACK_SIZE   = this.PACK_T003_SIZE;
-              this.PACK_PATH   = this.PACK_T003_PATH;
+              console.log("ChessPack.setChessPack(PACK_ID_T003)");
+
+              this.PACK_PREFIX = PACK_T003_PREFIX;
+              this.PACK_SIZE   = PACK_T003_SIZE;
+              this.PACK_PATH   = PACK_T003_PATH;
               return;
           }
 
           if (packID == PACK_ID_T004) {
 
-              this.PACK_PREFIX = this.PACK_T004_PREFIX;
-              this.PACK_SIZE   = this.PACK_T004_SIZE;
-              this.PACK_PATH   = this.PACK_T004_PATH;
+              console.log("ChessPack.setChessPack(PACK_ID_T004)");
+
+              this.PACK_PREFIX = PACK_T004_PREFIX;
+              this.PACK_SIZE   = PACK_T004_SIZE;
+              this.PACK_PATH   = PACK_T004_PATH;
               return;
           }
 
@@ -189,11 +186,11 @@ alert(mycircle.r + ' -> ' + mycircle.area());
 
       getImageName: function() {
 
-        console.log("ChessPack.getImageName()");
+          console.log("ChessPack.getImageName()");
 
-        var number = this._pad(this.img_chess_number, 5);
+          var number = this._pad(this.img_chess_number, 5);
 
-        return this.PACK_PREFIX + number + ".png";
+          return this.PACK_PREFIX + number + ".png";
       },
 
 
@@ -205,9 +202,7 @@ alert(mycircle.r + ' -> ' + mycircle.area());
       _getNextImageName: function() {
 
         this._next();
-
-        return _getImageNameWithPath();
-
+        return this._getImageNameWithPath();
       },
 
 
@@ -258,16 +253,11 @@ alert(mycircle.r + ' -> ' + mycircle.area());
 
 
       // chessPack.init(); --> OK..
-      init: function() {
+      init: function(packID) {
         // Pack Selected
+        console.log("ChessPack.init(packID="+packID+")");
 
-        this.img_chess_number = 0;
-
-        console.log("ChessPack.init(img_chess_number="+this.img_chess_number+")");
-
-        this.PACK_PREFIX = this.PACK_M001_PREFIX;
-        this.PACK_SIZE   = this.PACK_M001_SIZE;
-        this.PACK_PATH   = this.PACK_M001_PATH;
+        this.setChessPack(packID);
 
       }
 

@@ -30,14 +30,16 @@
 
     <div data-role="content" data-theme="a">
         <div class="content-primary">
-            <h2>Encuentra el Jaque Mate en #3 jugadas</h2>
-
-			<img id="img_chess" alt="jaque mate en dos" src="images/chess/pack_m001/chess_mate1_00000.png">
-
-            <p>This is Section 1. (a)</p>
-            <h2 id="text_hint_solution">solution...</h2>
 
 
+          <!-- ChessLab Page -->
+          <h2>Encuentra el Jaque Mate en #3 jugadas</h2>
+
+          <img id="img_chess" alt="jaque mate" src="images/chess/pack_m003/chess_mate3_00000.png">
+
+          <p>This is Section 3</p>
+          <h2 id="text_hint_solution">solution...</h2>
+          <!-- ChessLab Page End-->
 
 
         </div><!--/content-primary -->
@@ -64,17 +66,20 @@
 </body>
 </html>
 
-<!--
+
+
 <script>
 
 // Chess Solutions Section
-
 var chessPack = new ChessPack();
 
-//
+chessPack.init(PACK_ID_M003);
+
+
+//---
 $('#img_chess').on({
     'click': function(){
-        button_doNext();
+       chessPack.doNextButton();
     }
 });
 
@@ -90,7 +95,6 @@ function button_doPrev() {
 
 
 // Chess Solutions Section
-
 var chessSolutions = new ChessSolutions();
 
 $('#button_hint_solution').on({
@@ -112,4 +116,3 @@ function _setTxtValue(tagId, txtValue) {
 }
 
 </script>
--->

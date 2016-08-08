@@ -30,9 +30,16 @@
 
     <div data-role="content" data-theme="a">
         <div class="content-primary">
-            <h2>Encuentra el Jaque Mate en #2 jugadas (d)</h2>
 
-            <p>This is Section 2.</p>
+          <!-- ChessLab Page -->
+          <h2>Encuentra el Jaque Mate en #2 jugadas</h2>
+
+          <img id="img_chess" alt="jaque mate" src="images/chess/pack_m002/chess_mate2_00000.png">
+
+          <p>This is Section 2</p>
+          <h2 id="text_hint_solution">solution...</h2>
+          <!-- ChessLab Page End-->
+
         </div><!--/content-primary -->
 
         <div class="content-secondary">
@@ -56,3 +63,54 @@
 </div><!-- /page -->
 </body>
 </html>
+
+
+
+<script>
+
+// Chess Solutions Section
+var chessPack = new ChessPack();
+
+chessPack.init(PACK_ID_M002);
+
+
+//---
+$('#img_chess').on({
+    'click': function(){
+       chessPack.doNextButton();
+    }
+});
+
+function button_doNext() {
+    chessPack.doNextButton();
+}
+
+function button_doPrev() {
+    chessPack.doPrevButton();
+}
+
+//---------------------
+
+
+// Chess Solutions Section
+var chessSolutions = new ChessSolutions();
+
+$('#button_hint_solution').on({
+    'click': function(){
+        button_showSolution();
+    }
+});
+
+function button_showSolution() {
+
+   var chessImageName = chessPack.getImageName();
+   var solution  = chessSolutions.getChessSolution(chessImageName);
+
+   _setTxtValue("text_hint_solution", solution);
+}
+
+function _setTxtValue(tagId, txtValue) {
+  $('#' + tagId).text(txtValue);
+}
+
+</script>
