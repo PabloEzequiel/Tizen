@@ -55,9 +55,12 @@ var PACK_T002_PATH = "images/chess/pack_T004/";
 
 
 
+
 var ChessPack = function(packID) {
 
   console.log("ChessPack creation");
+
+
 
   // Constantes
   this.img_chess_number = 0;
@@ -71,6 +74,37 @@ var ChessPack = function(packID) {
 
 
 $.extend(ChessPack.prototype, {
+
+
+      getPackID: function(pageHtml)
+      {
+        console.log("ChessPack.getPackID(html:"+pageHtml+")");
+
+
+        // .. PackID dado pageHTML
+        var chessPackId = {};
+
+        chessPackId["pack_m001.html"] = PACK_ID_M001;
+        chessPackId["pack_m002.html"] = PACK_ID_M002;
+        chessPackId["pack_m003.html"] = PACK_ID_M003;
+        chessPackId["pack_m004.html"] = PACK_ID_M004;
+
+        chessPackId["pack_T001.html"] = PACK_ID_T001;
+        chessPackId["pack_T002.html"] = PACK_ID_T002;
+        chessPackId["pack_T003.html"] = PACK_ID_T003;
+        chessPackId["pack_T004.html"] = PACK_ID_T004;
+
+        var pHtml = chessPackId[pageHtml];
+
+        /*
+        if (!pHtml) {
+             return
+        }
+        */
+
+        return pHtml;
+      },
+
 
       setChessPack: function(packID)
       {

@@ -3,6 +3,7 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
+
     // ----------------
     // buttonsImages
     $('#btn_A').on({
@@ -10,7 +11,6 @@ $( document ).ready(function() {
             button_doPrev();
         }
     });
-
 
     $('#btn_B').on({
         'click': function(){
@@ -23,7 +23,6 @@ $( document ).ready(function() {
             button_showSolution();
         }
     });
-
 
 
     // ON OFF BUTTON A

@@ -59,7 +59,13 @@ function changePage(index){
 	var list = $.mobile.activePage.find("a[href]");
 	$item = list[index];
 	var path = $item.getAttribute("href");
+
 	$.mobile.changePage(path);
+
+  // Pablo Ezequiel cambia init_getPackID
+  console.log("EVENTO changePage("+index+"): " + path);
+  init_getPackID(path);
+
 }
 
 
