@@ -7,14 +7,14 @@ $( document ).ready(function() {
     // buttonsImages
     $('#btn_A').on({
         'click': function(){
-            button_doNext();
+            button_doPrev();
         }
     });
 
 
     $('#btn_B').on({
         'click': function(){
-            button_doPrev();
+            button_doNext();
         }
     });
 

@@ -103,6 +103,31 @@ function handelPageOne(e) {
 			}
 			break;
 
+
+    // Buttons ChessLabTV
+    // - A : Preb
+    // - B : Next
+    // - C : solution
+    // - D : Next Package
+    case TvKeyCode.KEY_RED:
+      button_doPrev();
+      break;
+
+    case TvKeyCode.KEY_GREEN:
+      button_doNext();
+      break;
+
+    case TvKeyCode.KEY_YELLOW:
+      button_showSolution();
+      break;
+
+    /*
+    case TvKeyCode.KEY_BLUE:
+      button_doNext();
+      break;
+     */
+
+
     case TvKeyCode.KEY_ENTER:
 			changePage(index);
 			break;

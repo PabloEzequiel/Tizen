@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Template</title>
+    <title>ChessLabTV</title>
 
     <link rel="stylesheet" href="./css/jquery.mobile-1.3.2.css"/>
     <link rel="stylesheet" href="css/jqm-docs.css"/>
@@ -11,12 +11,17 @@
     <script src="js/jqm-docs.js"></script>
     <script type="text/javascript" src="./js/jquery.mobile-1.3.2.js"></script>
 
-	<script type="text/javascript" src="./lib/TVKeyValue.js"></script>
-    <script src="js/main.js"></script>
 
     <!-- Chess Lab javascript -->
     <script type="text/javascript" src="./js/chess/chess_solutions.js"></script>
     <script type="text/javascript" src="./js/chess/chess_packs.js"></script>
+    <script type="text/javascript" src="./js/chess/chess_control_tv.js"></script>
+    <script type="text/javascript" src="./js/chess/chess_zscript.js"></script>
+    <!-- Chess Lab javascript -->
+
+
+  	<script type="text/javascript" src="./lib/TVKeyValue.js"></script>
+    <script src="js/main.js"></script>
 
 
     <link rel="stylesheet" href="css/style.css"/>
@@ -31,15 +36,30 @@
     <div data-role="content" data-theme="a">
         <div class="content-primary">
 
-            <!-- ChessLab Page -->
+
+          <!-- ChessLab Page -->
             <h2>Encuentra el Jaque Mate en #1 jugadas</h2>
 
-	      		<img id="img_chess" alt="jaque mate" src="images/chess/pack_m001/chess_mate1_00000.png">
 
-            <p>This is Section 1. (a)</p>
-            <h2 id="text_hint_solution">solution...</h2>
-            <!-- ChessLab Page End-->
+            <!--
+            http://www.grsites.com/generate/viewresult/2/2000/2001/?result_id=15387513
+            -->
+            <div id="buttonsImages">
+            <img id="btn_A" src="images/button_A.png">
+            <img id="btn_B" src="images/button_B.png">
+            <img id="btn_C" src="images/button_C.png">
+            <img id="btn_D" src="images/button_D.png">
+            </div>
 
+
+            <img id="img_chess" alt="jaque mate" src="images/chess/pack_m001/chess_mate1_00000.png">
+
+            <h2 id="text_hint_solution" class="txtSolution">Button "C": solution</h2>
+
+            <p id="text_problem_desc">Problem number...</p>
+
+
+          <!-- ChessLab Page End-->
 
 
 
@@ -71,48 +91,9 @@
 <script>
 
 // Chess Solutions Section
-var chessPack = new ChessPack();
+// var chessPack = new ChessPack();
 
 chessPack.init(PACK_ID_M001);
 
-
-//---
-$('#img_chess').on({
-    'click': function(){
-       chessPack.doNextButton();
-    }
-});
-
-function button_doNext() {
-    chessPack.doNextButton();
-}
-
-function button_doPrev() {
-    chessPack.doPrevButton();
-}
-
-//---------------------
-
-
-// Chess Solutions Section
-var chessSolutions = new ChessSolutions();
-
-$('#button_hint_solution').on({
-    'click': function(){
-        button_showSolution();
-    }
-});
-
-function button_showSolution() {
-
-   var chessImageName = chessPack.getImageName();
-   var solution  = chessSolutions.getChessSolution(chessImageName);
-
-   _setTxtValue("text_hint_solution", solution);
-}
-
-function _setTxtValue(tagId, txtValue) {
-  $('#' + tagId).text(txtValue);
-}
 
 </script>

@@ -17,7 +17,7 @@
     <!-- Chess Lab javascript -->
     <script type="text/javascript" src="./js/chess/chess_solutions.js"></script>
     <script type="text/javascript" src="./js/chess/chess_packs.js"></script>
-
+    <script type="text/javascript" src="./js/chess/chess_control_tv.js"></script>
 
     <link rel="stylesheet" href="css/style.css"/>
 </head>
@@ -32,14 +32,29 @@
         <div class="content-primary">
 
 
-          <!-- ChessLab Page -->
-          <h2>Encuentra el Jaque Mate en #4 jugadas</h2>
+            <!-- ChessLab Page -->
+              <h2>Encuentra el Jaque Mate en #4 jugadas</h2>
 
-          <img id="img_chess" alt="jaque mate" src="images/chess/pack_m004/chess_mate4_00000.png">
 
-          <p>This is Section 4</p>
-          <h2 id="text_hint_solution">solution...</h2>
-          <!-- ChessLab Page End-->
+              <!--
+              http://www.grsites.com/generate/viewresult/2/2000/2001/?result_id=15387513
+              -->
+              <div id="buttonsImages">
+              <img id="btn_A" src="images/button_A.png">
+              <img id="btn_B" src="images/button_B.png">
+              <img id="btn_C" src="images/button_C.png">
+              <img id="btn_D" src="images/button_D.png">
+              </div>
+
+
+              <img id="img_chess" alt="jaque mate" src="images/chess/pack_m004/chess_mate4_00000.png">
+
+              <h2 id="text_hint_solution" class="txtSolution">Button "C": solution</h2>
+
+              <p id="text_problem_desc">Problem number...</p>
+
+
+            <!-- ChessLab Page End-->
 
 
 
@@ -84,12 +99,12 @@ $('#img_chess').on({
     }
 });
 
-function button_doNext() {
-    chessPack.doNextButton();
-}
-
 function button_doPrev() {
     chessPack.doPrevButton();
+}
+
+function button_doNext() {
+    chessPack.doNextButton();
 }
 
 //---------------------

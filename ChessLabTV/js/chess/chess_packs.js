@@ -9,8 +9,8 @@ var PACK_ID_M004 = "chess_mate4_";
 
 var PACK_ID_T001 = "chess_train_001_";
 var PACK_ID_T002 = "chess_train_002_";
-var PACK_ID_T001 = "chess_train_003_";
-var PACK_ID_T002 = "chess_train_004_";
+var PACK_ID_T003 = "chess_train_003_";
+var PACK_ID_T004 = "chess_train_004_";
 
 
 
@@ -147,6 +147,7 @@ $.extend(ChessPack.prototype, {
         this._setImageSource("img_chess", this._getImageNameWithPath())
 
         this._setTxtValue("text_problem_desc", this.getTxtProblemDesc());
+        this._setTxtValue("text_hint_solution", "");
 
         return;
       },
@@ -161,6 +162,7 @@ $.extend(ChessPack.prototype, {
         this._setImageSource("img_chess", this._getImageNameWithPath())
 
         this._setTxtValue("text_problem_desc", this.getTxtProblemDesc());
+        this._setTxtValue("text_hint_solution", "");
 
         return;
 
@@ -202,7 +204,7 @@ $.extend(ChessPack.prototype, {
       // Utiles
       _pad: function(str, max) {
 
-        console.log("str["+str+", "+max+"]" );
+        // console.log("str["+str+", "+max+"]" );
 
         str = str.toString();
         return str.length < max ? this._pad("0" + str, max) : str;
