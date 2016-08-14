@@ -24,6 +24,8 @@ function button_doNext() {
 
 function init_getPackID(pageHtml) {
 
+    console.log("init_getPackID("+pageHtml+")");
+
     var packID = chessPack.getPackID(pageHtml);
 
     chessPack.init(packID);

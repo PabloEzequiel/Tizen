@@ -56,6 +56,7 @@ function setFocusVisible(index1,state){
 }
 
 function changePage(index){
+
 	var list = $.mobile.activePage.find("a[href]");
 	$item = list[index];
 	var path = $item.getAttribute("href");
@@ -73,9 +74,12 @@ function changePage(index){
 var index = 0;
 
 var MAX    = 2;
-var TOTAL  = 6;
+// var TOTAL  = 6;
+var TOTAL  = 10;
 
 function handelPageOne(e) {
+
+  // console.log("EVENTO handelPageOne  --->>> !!!!! " + e.keyCode + " index: " + index);
 
 	switch(e.keyCode){
 
@@ -133,17 +137,22 @@ function handelPageOne(e) {
       break;
      */
 
-
     case TvKeyCode.KEY_ENTER:
+
+      console.log("EVENTO TvKeyCode.KEY_ENTER ");
+
+
 			changePage(index);
 			break;
+
 		default:
 			break;
-	}
+
+  }
 }
 
 function bindKeyToPage1(){
-	console.log("pag1");
+	console.log("function bindKeyToPage1");
 	index = 0;
 	setFocusVisible(index,true);
 	document.body.removeEventListener("keydown",handelPageOne,false);
@@ -163,7 +172,7 @@ $(document).on("pageshow", "#chess_packs_page_m002", bindKeyToPage1);
 $(document).on("pageshow", "#chess_packs_page_m003", bindKeyToPage1);
 $(document).on("pageshow", "#chess_packs_page_m004", bindKeyToPage1);
 
-$(document).on("pageshow", "#chess_packs_page_t001", bindKeyToPage1);
-$(document).on("pageshow", "#chess_packs_page_t002", bindKeyToPage1);
-$(document).on("pageshow", "#chess_packs_page_t003", bindKeyToPage1);
-$(document).on("pageshow", "#chess_packs_page_t004", bindKeyToPage1);
+$(document).on("pageshow", "#chess_packs_page_T001", bindKeyToPage1);
+$(document).on("pageshow", "#chess_packs_page_T002", bindKeyToPage1);
+$(document).on("pageshow", "#chess_packs_page_T003", bindKeyToPage1);
+$(document).on("pageshow", "#chess_packs_page_T004", bindKeyToPage1);

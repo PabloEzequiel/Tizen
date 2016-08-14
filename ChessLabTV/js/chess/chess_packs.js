@@ -22,8 +22,8 @@ var PACK_M004_PREFIX = PACK_ID_M004;
 
 var PACK_T001_PREFIX = PACK_ID_T001;
 var PACK_T002_PREFIX = PACK_ID_T002;
-var PACK_T001_PREFIX = PACK_ID_T001;
-var PACK_T002_PREFIX = PACK_ID_T002;
+var PACK_T003_PREFIX = PACK_ID_T003;
+var PACK_T004_PREFIX = PACK_ID_T004;
 
 
 
@@ -48,8 +48,8 @@ var PACK_M004_PATH = "images/chess/pack_m004/";
 
 var PACK_T001_PATH = "images/chess/pack_T001/";
 var PACK_T002_PATH = "images/chess/pack_T002/";
-var PACK_T001_PATH = "images/chess/pack_T003/";
-var PACK_T002_PATH = "images/chess/pack_T004/";
+var PACK_T003_PATH = "images/chess/pack_T003/";
+var PACK_T004_PATH = "images/chess/pack_T004/";
 
 
 

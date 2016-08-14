@@ -76,6 +76,7 @@ function ChessSolutions()
                 white
         */
 
+       // Mate en #1
         _chessProblems_utf8_put("chess_mate1_00000","1. ♖g8#        ");
         _chessProblems_utf8_put("chess_mate1_00001","1. ♘d7#        ");
         _chessProblems_utf8_put("chess_mate1_00002","1. dxe8=♘#     ");
@@ -86,6 +87,7 @@ function ChessSolutions()
         _chessProblems_utf8_put("chess_mate1_00007","1. ♖d8#        ");
         _chessProblems_utf8_put("chess_mate1_00008","1. f3#         ");
 
+       // Mate en #2
         _chessProblems_utf8_put("chess_mate2_00000","1. ♕b8+ ♞xb8 2. ♖f8#        ");
         _chessProblems_utf8_put("chess_mate2_00001","1. ♕xa7+ ♚xa7 2. ♖a3#        ");
         _chessProblems_utf8_put("chess_mate2_00002","1. ♖xc6+ bxc6 2. ♗a6#        ");
@@ -99,6 +101,7 @@ function ChessSolutions()
         _chessProblems_utf8_put("chess_mate2_00010","1. ♕e6+ ♞xe6 2. ♘h6#        ");
         _chessProblems_utf8_put("chess_mate2_00011","1. ♕h6+ ♚xh6 2. ♗f8#        ");
 
+       // Mate en #3
         _chessProblems_utf8_put("chess_mate3_00000","1. ♕g6 fxg6 2. ♖xg7+ ♚f8 3. ♘xg6#        ");
         _chessProblems_utf8_put("chess_mate3_00001","1. ♕d8+ ♚xd8 2. ♘c6+ ♚e8 3. ♖d8#        ");
         _chessProblems_utf8_put("chess_mate3_00002","1. ♖g6+ fxg6 2. ♕h8+ ♚xh8 3. ♖xf8#        ");
@@ -117,6 +120,7 @@ function ChessSolutions()
         _chessProblems_utf8_put("chess_mate3_00015","1. ♗xb7+ ♚xb7 2. ♕xb5+ ♚c8 3. ♕c6#        ");
         _chessProblems_utf8_put("chess_mate3_00016","1. ♖h7+ ♚xh7 2. ♕h2+ ♚g7 3. ♕h6#        ");
 
+       // Mate en #4
         _chessProblems_utf8_put("chess_mate4_00000","1. g4+ fxg4+ 2. ♘xg4+ g5 3. ♕e8+ ♛g6 4. ♘f6#        ");
         _chessProblems_utf8_put("chess_mate4_00001","1. ♕xh7+ ♚xh7 2. ♖h3+ ♝xh3 3. ♖xh3+ ♚g6 4. ♖h6#     ");
         _chessProblems_utf8_put("chess_mate4_00002","1. ♕xe5+ ♞xe5 2. ♗f6+ ♚h6 3. ♗g7+ ♚h5 4. ♖h6#       ");
@@ -134,6 +138,7 @@ function ChessSolutions()
         _chessProblems_utf8_put("chess_mate4_00014","1. ♖xb8+ ♚a7 2. ♕d4+ ♚xb8 3. ♖e8+ ♚c7 4. ♕d8#       ");
         _chessProblems_utf8_put("chess_mate4_00015","1. ♗g5+ ♜f6 2. ♗xf6+ gxf6 3. ♕g7+ ♚e8 4. ♕f7#       ");
 
+       // Chess Training BBVA mates simples ...
         _chessProblems_utf8_put("chess_train_001_00000","1. ♖h1#      ");
         _chessProblems_utf8_put("chess_train_001_00001","1. ♗a6#      ");
         _chessProblems_utf8_put("chess_train_001_00002","1. ♖h1#      ");
@@ -153,6 +158,7 @@ function ChessSolutions()
         _chessProblems_utf8_put("chess_train_001_00016","1. dxe8=♘#   ");
         _chessProblems_utf8_put("chess_train_001_00017","1. ♘d7#      ");
 
+       // Negras ganan ...
         _chessProblems_utf8_put("chess_train_002_00000","1 ... ♞f3#   ");
         _chessProblems_utf8_put("chess_train_002_00001","1 ... ♛xc2#   ");
         _chessProblems_utf8_put("chess_train_002_00002","1 ... ♝h3+ 2. ♔xh3 ♛f1#   ");
@@ -172,7 +178,7 @@ function ChessSolutions()
         _chessProblems_utf8_put("chess_train_002_00016","1 ... ♛g2+ 2. ♕xg2 ♜xe1+ 3. ♕f1 ♜xf1#   ");
         _chessProblems_utf8_put("chess_train_002_00017","1 ... ♜c1+ 2. ♔xc1 ♜e1+ 3. ♘xe1 ♛xe1#   ");
 
-
+       // Blancas ganan I
         _chessProblems_utf8_put("chess_train_003_00000"," 1. ♖c1 ♛xa4 2. ♖xc8#    ");
         _chessProblems_utf8_put("chess_train_003_00001"," 1. ♖d7 ♛xd7 2. ♘f6+ ♚h8 3. ♘xd7    ");
         _chessProblems_utf8_put("chess_train_003_00002"," 1. ♗d6 ♚g8 2. ♖e8    ");
@@ -193,6 +199,7 @@ function ChessSolutions()
         _chessProblems_utf8_put("chess_train_003_00017"," 1. ♖h8+ ♚xh8 2. ♗xg7+ ♜xg7 3. ♕xd5    ");
         _chessProblems_utf8_put("chess_train_003_00018"," 1. ♘e7+ ♛xe7 2. ♕xh7+ ♚xh7 3. ♖h5+ ♚g8 4. ♖h8#    ");
 
+       // Blancas ganan II
         _chessProblems_utf8_put("chess_train_004_00000"," 1. ♕g4 ♛xg4 2. ♖xe8+ ♝f8 3. ♘e7+ ♚h8 4. ♖xf8#      ");
         _chessProblems_utf8_put("chess_train_004_00001"," 1. ♖e8+ ♝f8 2. ♖xf8+ ♚xf8 3. ♘f5+ ♚g8 4. ♕f8+ ♚xf8 5. ♖d8#      ");
         _chessProblems_utf8_put("chess_train_004_00002"," 1. ♘g5 ♝xc2 2. ♗xb7      ");
