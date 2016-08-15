@@ -66,6 +66,7 @@ var ChessPack = function(packID) {
   this.img_chess_number = 0;
 
   // Init Default and Pointers
+  this.PACK_ID     =  PACK_M001_PREFIX;
   this.PACK_PREFIX =  PACK_M001_PREFIX;
   this.PACK_SIZE   =  PACK_M001_SIZE;
   this.PACK_PATH   =  PACK_M001_PATH;
@@ -112,6 +113,7 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_M001) {
 
+              this.PACK_ID     = PACK_M001_PREFIX;
               this.PACK_PREFIX = PACK_M001_PREFIX;
               this.PACK_SIZE   = PACK_M001_SIZE;
               this.PACK_PATH   = PACK_M001_PATH;
@@ -119,6 +121,7 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_M002) {
 
+              this.PACK_ID     = PACK_M002_PREFIX;
               this.PACK_PREFIX = PACK_M002_PREFIX;
               this.PACK_SIZE   = PACK_M002_SIZE;
               this.PACK_PATH   = PACK_M002_PATH;
@@ -126,6 +129,7 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_M003) {
 
+              this.PACK_ID     = PACK_M003_PREFIX;
               this.PACK_PREFIX = PACK_M003_PREFIX;
               this.PACK_SIZE   = PACK_M003_SIZE;
               this.PACK_PATH   = PACK_M003_PATH;
@@ -133,6 +137,7 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_M004) {
 
+              this.PACK_ID     = PACK_M004_PREFIX;
               this.PACK_PREFIX = PACK_M004_PREFIX;
               this.PACK_SIZE   = PACK_M004_SIZE;
               this.PACK_PATH   = PACK_M004_PATH;
@@ -140,6 +145,7 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_T001) {
 
+              this.PACK_ID     = PACK_T001_PREFIX;
               this.PACK_PREFIX = PACK_T001_PREFIX;
               this.PACK_SIZE   = PACK_T001_SIZE;
               this.PACK_PATH   = PACK_T001_PATH;
@@ -147,6 +153,7 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_T002) {
 
+              this.PACK_ID     = PACK_T002_PREFIX;
               this.PACK_PREFIX = PACK_T002_PREFIX;
               this.PACK_SIZE   = PACK_T002_SIZE;
               this.PACK_PATH   = PACK_T002_PATH;
@@ -154,6 +161,7 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_T003) {
 
+              this.PACK_ID     = PACK_T003_PREFIX;
               this.PACK_PREFIX = PACK_T003_PREFIX;
               this.PACK_SIZE   = PACK_T003_SIZE;
               this.PACK_PATH   = PACK_T003_PATH;
@@ -161,6 +169,7 @@ $.extend(ChessPack.prototype, {
 
           if (packID == PACK_ID_T004) {
 
+              this.PACK_ID     = PACK_T004_PREFIX;
               this.PACK_PREFIX = PACK_T004_PREFIX;
               this.PACK_SIZE   = PACK_T004_SIZE;
               this.PACK_PATH   = PACK_T004_PATH;
@@ -222,6 +231,19 @@ $.extend(ChessPack.prototype, {
           return this.PACK_PREFIX + number + ".png";
       },
 
+      printChessPackInfo: function() {
+
+          console.log("ChessPack.printChessPackInfo()");
+
+          console.log("ChessPack: packID    :" + this.PACK_ID);
+          console.log("ChessPack: image     :" + this.getImageName());
+          console.log("ChessPack: number    :" + this.img_chess_number);
+          console.log("ChessPack: size      :" + this.PACK_SIZE);
+          console.log("ChessPack: path      :" + this.PACK_PATH);
+          console.log("ChessPack: des       :" + this.getTxtProblemDesc());
+
+          return;
+      },
 
       _getImageNameWithPath: function () {
 

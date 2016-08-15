@@ -2,8 +2,7 @@ console.log("Chess Lab TV Loaded");
 
 // Chess Solutions Section
 var chessPack = new ChessPack();
-
-
+chessPack.setChessPack(PACK_ID_M001);
 
 //---
 $('#img_chess').on({
@@ -29,6 +28,12 @@ function init_getPackID(pageHtml) {
     var packID = chessPack.getPackID(pageHtml);
 
     chessPack.init(packID);
+}
+
+function printChessPackInfo() {
+
+    console.log("printChessPackInfo()");
+    chessPack.printChessPackInfo();
 }
 
 //---------------------

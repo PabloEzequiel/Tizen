@@ -63,23 +63,43 @@ function changePage(index){
 
 	$.mobile.changePage(path);
 
-  // Pablo Ezequiel cambia init_getPackID
-  console.log("EVENTO changePage("+index+"): " + path);
-  init_getPackID(path);
+	console.log("changePage list  ::>" + list[0] + "," +list[1] + "," +list[2] + "," +list[3]     );
+	console.log("changePage $item ::>" + $item);
+	console.log("changePage path  ::>" + path);
+
+  if (isHomePage(index)) {
+      console.log(">> TvKeyCode.KEY_ENTER index en Home Page");
+  } else {
+     init_getPackID(path);
+  }
 
 }
 
 
 
-var index = 0;
+/**
+ * Pablo: Si es el HomePage --> No hago cosas ...
+ */
+function isHomePage(index) {
 
+  if (index==0 || index==1) {
+     console.log(" ES HOME PAGE="+index);
+     return true;
+
+  }
+
+  return false;
+
+}
+
+var index  = 0;
 var MAX    = 2;
-// var TOTAL  = 6;
 var TOTAL  = 10;
 
 function handelPageOne(e) {
 
   // console.log("EVENTO handelPageOne  --->>> !!!!! " + e.keyCode + " index: " + index);
+  printChessPackInfo();
 
 	switch(e.keyCode){
 
@@ -120,15 +140,31 @@ function handelPageOne(e) {
     // - C : solution
     // - D : Next Package
     case TvKeyCode.KEY_RED:
-      button_doPrev();
+
+      if (isHomePage(index)) {
+          console.log(">> TvKeyCode.KEY_RED en Home: Nada");
+      } else {
+         button_doPrev();
+      }
       break;
 
     case TvKeyCode.KEY_GREEN:
-      button_doNext();
+
+      if (isHomePage(index)) {
+          console.log(">> TvKeyCode.KEY_GREEN en Home: Nada");
+      } else {
+         button_doNext();
+      }
       break;
 
     case TvKeyCode.KEY_YELLOW:
-      button_showSolution();
+
+      if (isHomePage(index)) {
+          console.log(">> TvKeyCode.KEY_YELLOW en Home: Nada");
+      } else {
+         button_showSolution();
+      }
+
       break;
 
     /*
@@ -139,10 +175,8 @@ function handelPageOne(e) {
 
     case TvKeyCode.KEY_ENTER:
 
-      console.log("EVENTO TvKeyCode.KEY_ENTER ");
+      changePage(index);
 
-
-			changePage(index);
 			break;
 
 		default:
@@ -152,8 +186,8 @@ function handelPageOne(e) {
 }
 
 function bindKeyToPage1(){
-	console.log("function bindKeyToPage1");
-	index = 0;
+	console.log("function bindKeyToPage1 index=" + index);
+//	index = 0;
 	setFocusVisible(index,true);
 	document.body.removeEventListener("keydown",handelPageOne,false);
 	document.body.addEventListener("keydown",handelPageOne ,false);
