@@ -20,6 +20,17 @@ function button_doNext() {
 }
 
 //---
+function button_showInfo() {
+    alert(
+             "Chess Lab TV"
+        + "\n Pablo Ezequiel Inchausti"
+        + "\n https://pabloezequiel.github.io/chess/"
+        + "\n 2016"
+
+         );
+}
+
+//---
 
 function init_getPackID(pageHtml) {
 

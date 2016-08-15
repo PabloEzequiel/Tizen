@@ -167,17 +167,15 @@ function handelPageOne(e) {
 
       break;
 
-    /*
+      case TvKeyCode.KEY_ENTER:
+        changePage(index);
+  			break;
+
     case TvKeyCode.KEY_BLUE:
-      button_doNext();
+    case TvKeyCode.KEY_INFO:
+      button_showInfo();
       break;
-     */
 
-    case TvKeyCode.KEY_ENTER:
-
-      changePage(index);
-
-			break;
 
 		default:
 			break;

@@ -23,3 +23,42 @@ text-align: right;
 float: right;
 
 }
+
+//------------------------------
+
+#tableChessLabTV {
+
+}
+
+#container {
+  display: table;
+/*  border: solid  1px #00ff00;    */
+  margin: 10px;
+  padding: 10px;
+}
+
+#row {
+  display: table-row;
+  border: solid  1px #0000ff;
+
+  /* margin: 10px; */
+}
+
+
+
+#left, #right, #middle {
+  display: table-cell;
+  align-items: center;
+  /* border: solid  1px #ff0000;     */
+  padding: 10px;
+  padding-bottom:  70px;
+
+}
+
+#right img {
+  width: 36px;
+}
+
+.pright {
+  float: right;
+}
