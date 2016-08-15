@@ -121,6 +121,7 @@ function handelPageOne(e) {
 
     case TvKeyCode.KEY_RIGHT:
 		case TvKeyCode.KEY_DOWN:
+
 			if (index == 0){
 				index = index +MAX;
 				setFocusVisible(index-MAX,false);
@@ -164,12 +165,11 @@ function handelPageOne(e) {
       } else {
          button_showSolution();
       }
-
       break;
 
-      case TvKeyCode.KEY_ENTER:
-        changePage(index);
-  			break;
+    case TvKeyCode.KEY_ENTER:
+      changePage(index);
+			break;
 
     case TvKeyCode.KEY_BLUE:
     case TvKeyCode.KEY_INFO:

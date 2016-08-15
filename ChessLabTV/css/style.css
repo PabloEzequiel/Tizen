@@ -1,59 +1,63 @@
 body {
 }
 
-/*
-
-
-*/
 
 #buttonsImages {
-
-text-align: right;
-white-space: nowrap;
+  text-align: right;
+  white-space: nowrap;
 }
 
 #buttonsImages img {
-    width: 36px;
+  width: 36px;
 }
-
 
 .txtSolution {
-
-text-align: right;
-float: right;
-
+  text-align: left;;
+  float: right;
 }
 
-//------------------------------
+
 
 #tableChessLabTV {
 
 }
 
 #container {
-  display: table;
-/*  border: solid  1px #00ff00;    */
-  margin: 10px;
-  padding: 10px;
+    width: 100%;
+    display: table;
+/*  border: solid  1px #00ff00;      */
+    margin: 10px;
+    padding: 10px;
 }
 
-#row {
-  display: table-row;
-  border: solid  1px #0000ff;
+    #row {
+      display: table-row;
+        /*
+        border: solid  1px #0000ff;
+        margin: 10px;
+        */
+    }
 
-  /* margin: 10px; */
-}
 
+        #left {
+          display: table-cell;
+          align-items: center;
+/*        border: solid  1px #ff0000;     */
+          padding: 10px;
+          padding-bottom:  70px;
+          width: 420px;
 
+        }
 
-#left, #right, #middle {
-  display: table-cell;
-  align-items: center;
-  /* border: solid  1px #ff0000;     */
-  padding: 10px;
-  padding-bottom:  70px;
+        #right {
+          display: table-cell;
+          align-items: center;
+/*        border: solid  1px #ffffff;       */
+          padding: 60px;
+          padding-bottom:  40px;
+          width: 460px;
 
-}
+        }
 
 #right img {
   width: 36px;
