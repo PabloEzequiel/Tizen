@@ -3,7 +3,7 @@
     <tizen:application id="9z4adH8C2s.ChessLabTV" package="9z4adH8C2s" required_version="2.3"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
-    <icon src="icon.png"/>
+    <icon src="ic_launcher_96.png"/>
     <name>ChessLabTV</name>
     <tizen:profile name="tv-samsung-public"/>
     <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
