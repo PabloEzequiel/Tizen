@@ -120,27 +120,28 @@ function handelPageOne(e) {
 			break;
 
     case TvKeyCode.KEY_RIGHT:
-		case TvKeyCode.KEY_DOWN:
+	case TvKeyCode.KEY_DOWN:
 
-			if (index == 0){
-				index = index +MAX;
-				setFocusVisible(index-MAX,false);
-				setFocusVisible(index,true);
-			}
-			else if(index != TOTAL && index < TOTAL){
-				index++;
-				setFocusVisible(index-1,false);
-				setFocusVisible(index,true);
-			}
-			break;
+		if (index == 0){
+			index = index +MAX;
+			setFocusVisible(index-MAX,false);
+			setFocusVisible(index,true);
+		}
+		else if(index != TOTAL && index < TOTAL){
+			index++;
+			setFocusVisible(index-1,false);
+			setFocusVisible(index,true);
+		}
+		break;
 
 
     // Buttons ChessLabTV
-    // - A : Preb
+    // - A : Prev
     // - B : Next
     // - C : solution
     // - D : Next Package
     case TvKeyCode.KEY_RED:
+    case TvKeyCode.KEY_PREVIOUS:
 
       if (isHomePage(index)) {
           console.log(">> TvKeyCode.KEY_RED en Home: Nada");
@@ -150,6 +151,7 @@ function handelPageOne(e) {
       break;
 
     case TvKeyCode.KEY_GREEN:
+    case TvKeyCode.KEY_NEXT: 
 
       if (isHomePage(index)) {
           console.log(">> TvKeyCode.KEY_GREEN en Home: Nada");
@@ -159,7 +161,8 @@ function handelPageOne(e) {
       break;
 
     case TvKeyCode.KEY_YELLOW:
-
+    case TvKeyCode.KEY_PLAY:
+    	
       if (isHomePage(index)) {
           console.log(">> TvKeyCode.KEY_YELLOW en Home: Nada");
       } else {

@@ -1,0 +1,805 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="AuthorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI=".DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cBWdgr0AGPAKrqr4wbmPnTjOoCPeRYz1guw4sWTDGC8=</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bMaaptfl1XfRaXZ1k8gyEZ92hBsr8bc7EF4NDHS87aI=</DigestValue>
+</Reference>
+<Reference URI="css%2Fimages%2Fajax-loader.gif">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=</DigestValue>
+</Reference>
+<Reference URI="css%2Fimages%2Ficons-18-black.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YkloCw4iOzmFvDlLV2Pcmdkx/LYvMmxVJldjvs8XHjs=</DigestValue>
+</Reference>
+<Reference URI="css%2Fimages%2Ficons-18-white.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rfh6AUoBhUrc5DNWD/6xZFcAUrnAtQ84kV+DONk81bo=</DigestValue>
+</Reference>
+<Reference URI="css%2Fimages%2Ficons-36-black.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CDwe2XTGtNK+OrFVpNR/wjcfe2UiQDgqBOFT83YFSiU=</DigestValue>
+</Reference>
+<Reference URI="css%2Fimages%2Ficons-36-white.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6+18cXLgNxnQ4htI9uvF5UNE7bjDVDwlywa5m1R11DQ=</DigestValue>
+</Reference>
+<Reference URI="css%2Fjqm-docs.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bHJ1XHdpZMNiWOrjCEVrVHOMSRugvNMIR0qMXRbpz7o=</DigestValue>
+</Reference>
+<Reference URI="css%2Fjquery.mobile-1.3.2.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7gIa62h0lipubOV/M9KqIko5g+2iNfi3QIRHHJK3KrQ=</DigestValue>
+</Reference>
+<Reference URI="css%2Fjquery.mobile.structure-1.3.2.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ltwods9Mn1dYj+i5XD0dc00bEpY5RkEFkYVva+vXlk0=</DigestValue>
+</Reference>
+<Reference URI="css%2Fjquery.mobile.theme-1.3.2.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QwFf65ufHMPHMzhxJU22SBoG6/MRQMlva7EErRy0s5M=</DigestValue>
+</Reference>
+<Reference URI="css%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8XmBI8JuwHsSYt4VIo0epfOQQVyfH8p7iRzaske+1bU=</DigestValue>
+</Reference>
+<Reference URI="ic_launcher_144.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2G0o5/qdB5dMrmq9+4S+sAK8h4SZWQXSnfmhi8pVr3M=</DigestValue>
+</Reference>
+<Reference URI="ic_launcher_192.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VD5b4ypMLRpypDk2d6EPHjAx9yTb2rTv8UKwyTibmUk=</DigestValue>
+</Reference>
+<Reference URI="ic_launcher_512.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>stxEISt+ZccILMO3dCLCam4szmaDCyvF0JE34jvZXZo=</DigestValue>
+</Reference>
+<Reference URI="ic_launcher_96.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dyMHJLGEZZKTcG6gEtDhtOwD0v5WBYX/6u5+/xSa/DA=</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
+</Reference>
+<Reference URI="images%2F.DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dMYWX80qkOPCc86Aj/VXx6ywuSow/tEkE1ceCy83ANs=</DigestValue>
+</Reference>
+<Reference URI="images%2FChessLabTV_Buttons.xcf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eg1V1NqBlNYM822i8kAOlDt1PyCtDtGBkoRqjc1H/2s=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbutton_A.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>omNumZCf2Ise0O7HOWzNJm6QLuR/mzebMDaed56VTPE=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbutton_A_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>908vMsSkfBNkI5o7G7p5oIOgM5j+TGD5xujG2Y6YRNk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbutton_B.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wqar4dBwxUgft3kS75hEUjjPgLkyrWvi/v26Ar1eOe4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbutton_B_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>paMj66k6etSYv3CX7yPzi/eVhowZ6uPJHAn4ns+7oGI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbutton_C.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3ewpLTj/GCQ2VKtsFSUQq404D3HXKzVEOQRVMGzcSKk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbutton_C_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>U7yCIPe28968vyAwdEiqLR3MbJ1uyD7MaEPcQ06b4dc=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbutton_D.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QR1E0DpgE1FDpqK4k8AWPOjEJO99zV1UdFUEZvE4/eI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbutton_D_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uS+y7QsqOiXt5daTJRUTh+iS4Ibrw/mnwt/CGQdfyf8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2F.DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+SoXRbO1IdqlBT2P44Y0I2UL4roVnUFd5WE1j8R9Tew=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00000.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>E0G5fv3wGAjq5RkBUupH3khwSWr7+Sko3Y1NiDVeIDU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00001.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+MAuj6xeXOB0MhTaDm+TYOmtTsS0KR4nZAdQPqv6jqA=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00002.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Y1im4bnh3Oal04DngAOiijAa4vAulni0phNoWjTAEoA=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00003.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6eNmQ48rcx3vxGBMhBzYlt8nmfOhFcIs+OoUoqkuC+I=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00004.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/2WCDteAaavud9JiBaPbPMBIiQLGkQ45jNXFSgPTaVI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00005.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DZ3/br0v4Z0sH7V81+JG945K0k49RcO7Q5U0fOW4hdc=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00006.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sQkItGhAho0jf3+h/HF+4m/giAHFvf7uLMDG+27f6ew=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00007.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>faGVQhJcsffyzTUdiGCr1K7KLIRidpPLwORvkzIMsak=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00008.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OBPdMz6bgUpEAobS1ULAEd/p7sPO5iWeYyQ4KhEEZAk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00009.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hb4j8G9F1K1ebR4TsU0avITwa0vMwebES4tKz3lHwiQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00010.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RyE7eI15P5CzyMxS5MrP8MRjxFlANyviXgLMnBxezjw=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00011.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OMSVvMdH/9tkMY0hWz4NfXBk0TZRlMvQ9Gt55lhLk2c=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00012.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pCNP88VBFxylDH1x5B1ofgHOlv5lMuiaf+ZtJhsj0E8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00013.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pmfctI1xY8LWqbZwxzWWf1QZhqq89dv2uaIDc2+TDXk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00014.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FRnLVnA1MY2nNrnDzSIxi/X4WxU17Rn++7sILTlfXiA=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00015.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gg3HeA7wwuapAccx8LEhWBYjGPkC1anDc+jrzVmbVEo=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00016.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z3rU7bhskVbG3upLAD1pVNcKbuEMJf5dz9RKHyyk7zI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T001%2Fchess_train_001_00017.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Kc/cbPWc2C0UIEkTBpVSsTyTv6OsT38kAPyUAgFJT/Y=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00000.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vSWAJXEFFYpSYeA7Jni2Lfxn8CvPZeMXbhhM5b0BaHs=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00001.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IlIQkzYUvMkZAYC66nw2HoIip6DW9P2DQRL5x/8lrC4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00002.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WqCPp/TVpCfuEsrJYHdVezuB8OMG53l3Ys6ZFHcfLcA=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00003.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HMPJJqVLGzTdY+12dj3hSDewXXyIyf/L/HnGA0kB/+c=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00004.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6z2DbxDE+gGnya1ythOKAjjoi8edPo2jRlpKhuw+t2s=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00005.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5W9lMfctRIHLCpMkotYm4GjYn2R1L+72DzBa6YV0tyc=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00006.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>F5U/lqqcB1rG7g7UomawUNxlOKDC88eXZWeohdCOCgE=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00007.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yD67uS8fN8a/7R29QnX6IzuumHBESATZFWN4iafwCj8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00008.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>r9TLWvyJ6LwJb1/iIyA+KrIfDFJDWKmkQ768ULfPWAA=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00009.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>73ywO68g+fOlLD/4fZzlBLOuWpBz2Aroc9Nf1jtiAz0=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00010.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xPbJOtTkIxMsynK49dejn+OV5c5JO9qRMwk2hLYUY3g=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00011.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sQCfQ2vdj6IvnZonzMWx6fpHf3SjsPFfOtYOhDH0blQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00012.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>I56tpglBORVPdxt/3Ru9CUS4/jURrLRcXOU6iJbS0iY=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00013.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VXH71jDQTA4CixNVB0/LaKZNlL3yA9tjh6gvdkjkXas=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00014.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TAZne6It7GxK6/noSWnabQddXdoj0OznnOLuX7yyooc=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00015.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>C+5DHrHHAVbrbRL9TOJzzT0oWKnDUwAW8RCVKBXOgKQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00016.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZPNz0tzRdQQ+KrldSVTA/nkyE+5C5tuKe6DocctbGPI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T002%2Fchess_train_002_00017.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lRGGHrhV1D6+opwuJI5XbJUdWK3ZH+/JgOcRnNFRNrI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2F.DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00000.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9j3HJrKK6TI57ZSnGcexOwkchVu5O/WThDj/tE2BEOU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00001.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>m1fTpha+BDmGCUCnDxjTTBAvxOmXTRtBdhqHp8szD6M=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00002.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mba3mFKuuzi3Ur81eFYUQCVOrWQzI0q4sdwJO8xNtU0=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00003.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ub4/Hfjnav2XlZqHIyjmJa/HWFRcf/E2befytEPXPLY=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00004.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>72ePYHDC+WtSB36X9K/qk/uI7zvwafPf2pLkhWoNYgM=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00005.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CWmNZkp5pb3WK9EE6SyMvVdjOY9BZIhD81Pp4Axq4J8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00006.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3wivhdE2QNTBM8Qw+OjcNLQDgQBAlmLyi/hTNYh214o=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00007.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AfXuakyE/Iagl2h3uLPx0VjgCVig29VlkothTkyrt5U=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00008.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1zHBsMz37acAaTrviYP5COcVhmrF1ZoFp08WJZnZbgY=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00009.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>momfm4Jv+KTQqIm/dCooy0uhCQsp19qGo6qPcVBFS+o=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00010.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uocbcpJZb45yXfLRdSXWr8XhPyLrroY7Ct3grFicX9g=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00011.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JAE+kbL9ybTgAJl2dSjNeQmITQ9CmE4zLrsLmn+4hbQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00012.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pzcm/RvPsYTfnB0DollyQsz6XBSQCp427mP/vkG8oG0=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00013.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1nBegFgPDmNg97Dnvhmzn+cSIYxg7K4D28pkZ8gv/I4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00014.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>68jC3gq6Pg23mOVCFsMN6HzmW0r0c8/8LaG/dtNdWx8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00015.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00016.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Orxiu4/l983EXH3yyDWA1HIPZRMVroqKkrivMWw7wiY=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00017.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ut1nIQcm2aTrKeP0ab1pOvvU0IzyTFYmsoFwSf2q0Kc=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T003%2Fchess_train_003_00018.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>L+V7mLQzXMgcIEv0OjjPFmdYsmrqhOWK1yonI3jVKig=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2F.DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00000.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>U68nmyEFWXUddIzFL3M4oljgXYp7YEwG1ODkvPq07rk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00001.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vfI9SuBU8YLuqEsRQ408u4G42AAji51Sb3QSLnVLswc=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00002.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kD1dIEGXARw8IzpMCvp9NG8JvTJnX0UTDH4TPOVzfzY=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00003.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xHwdotFO0tvF9xUpWZp23yiIoASam8hj0idiUW3CMLE=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00004.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MsMdW2QsCWamgDfhzIv15YgFmQsT9XMEVTg65Vjbeqk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00005.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XnwMqnA5jdUMk338AyeqS4UauX0F7pQk7sKb3T6Lw9s=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00006.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tnIVTfCRXNX2aoY4uT0JkT/WUkMXjbx5GkiWXItySGs=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00007.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QINOVwXj+8zMY2v/qczAQLpq29WleTQFjW8y2rTX4e8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00008.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6wbf3i7yawgh8QbTX7GbFJC99fVw73hAofDpLxuuyhY=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00009.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>p5JIffljE825LEqCCDayVPU3MWkMmfSEFz9zNq7RZ4s=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00010.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JCV4DjcjPq7ui5olPkRI1CV5/qBYynwGNoF5+lxH/CE=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00011.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pIZGSWBwQeakvcw7HN+rGrDf1gNP7rg+55GIpzLoQAQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00012.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oNDtFXIciCZI0OjbRYy+FUsHMnEjybJj6GoTIxVRbEk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00013.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PXHrbAeuf/LW8ORABmL9nMV2xk/PLIcuchgGOod4AJI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00014.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>r+3R910o96SkJdw+wJZVJGMpCAb5SiVSecQLuxFHh6M=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00015.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tP0O468Wsj5rXbaNbfmXl61fPiZr5R9Dw2Fli0To+Uw=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00016.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fHix0yiTc7BcaHi5RmY/RUt/kht0Eah+0OUB9ym2/lY=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00017.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JbVrSaXyWjwMr38diiWaVFGaDXBXJtiVHzdJcNnJc8A=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_T004%2Fchess_train_004_00018.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vQkFwS1Gp7ahKv/AkosbETsSDyqALHlJjuihNu0+81g=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00000.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8KdQsKq8sXW88ALzsvTAWkmjGO7e2gfS/Nrt6FNHNV4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00001.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pZq8gxBa0o5Pr8kkMaecAqmC8xwFn5xepfdKx1UA7zg=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00002.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yO9sXU0EViOv0RRAxOIn0mc62/TtW8RsBUEbX301AK8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00003.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UQI/QP5MD1OOjFn7D2p1RxwMS1Qc1by5+cGLWuN8HAQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00004.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RRoCC0151utUIcoi/5ohR6BOFaltLNmSQwGwZ9VyFiQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00005.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EcdO9ifHS0l+pKfeJ7XxJ+asvB+JLeU7OREMj23PUCk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00006.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WSXsbA1ZOwMaSFCdaiQDqR8sKsuB8oxhz9raHt0/UlE=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00007.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3a/f+szLYPSjzI8foHRr4OPvhz20S0Oe+Z+zpd4xeSc=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m001%2Fchess_mate1_00008.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CXGmZwQe+rdHvDpbFY1IEmkx9hyZDThDWlXw7wBboP4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2F.DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9bC9/p5b2AICxirk7U7aqY3zTUgjNv1OaaZPgm86tUo=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00000.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>++sFJMl642BcL/2vCujl5vts4aWkRA+9KU2DWuSAk+4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00001.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RpUN0JyIJUJUJv9tOg4IbZxCh7kjKp7OLi9OPeQn0w8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00002.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8w1dZ4bE29W5eekFFFeTXKkkDAqlxS7+dalRKjiF+qI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00003.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Dpk+VH332/v+cNnVQqIKq0oJZTBiOS0P4d4u46kMT1s=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00004.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PsqVaLwuZx3MpCIrsx9DGqXCwJ1vbutpzTN/0oEdC1Q=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00005.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zmjnFZHfCCQ7BFpO0Wj3PTzthcwBowR4J28DtnArKcw=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00006.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8izbLad38wMIldCzya5QMV/Bsay4Rym0jBUD3BpWgsQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00007.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gJDO/LAABJ0zjboz52xkzC+4rJOB7H3hxDzv1UGA6dI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00008.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vcmpAGFJ1c1hY7QPZtXnpcYhCWkjilii6rJjGY2Y8tQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00009.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N0Md+GWl1B7/fU+tjV8U60ejKFhxah3R37wqJCRnAdU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00010.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vBA2gDlra3qaZh6ksuJvCpwIIEex6Rj6FCuPZOFXlik=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m002%2Fchess_mate2_00011.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6crosGLIKkZW4HhjqCYJyyt10BG827DXyTym0jTtMbI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00000.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>seChOdrE8DsuvVJrglGAIlwrEzs/D9oJzXH7HgguwN8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00001.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WOVlB5OEVBpIJR7yueqIrAtdspYXJNiLc2K3yMBni74=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00002.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M8IhHFI/qkQwQwzXQPj1+OrG1o3LlvccnGe1Mq0aEUo=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00003.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MhuLHZyanI0C6HYYTo+7cYrrtPG2wyUKwWHBNQgQ/l8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00004.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RBcBfWFx+NdP/XlRkQJeLD0k3idTNn1rcH8v0MRp0cM=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00005.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JICbHRtOHcpBAJCMW4IgAw4gm7bv78z611L6wO6I01Q=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00006.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2XTGg3d+F0B2kkworeHY0618HbISEXbxoEvA8vD3krc=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00007.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MzrnrhoLlh/z2V2D+iIAroE5tptpAUt7N28kXOI1C4U=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00008.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DVNOeE5+siFtszbLSkTeTL6LCPRje04o7qiTyral+hk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00009.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kU2L83nT1fhKAwRDJvjQ2k6au0HCfeET0dQ8u280WIU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00010.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xumn6/KywLiyyZ4oLQPHnz+ey8UiFsbb8fs7x7isrP4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00011.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ziUrFy1kVNyiEV6Ac3MPIIrHDj3Y/k6PmNBh0qj4u5w=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00012.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hrQa89u9qF1T+HKzO/U/zVtA2BJIg/mpYwdjlGJKNYU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00013.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7Bks8L/0f1iZGS0j3B6JsQFaPWZGxVJmZqAR/M7Mqv0=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00014.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>81HSjiB1Mw/E9b6zrgPJ5ckJPSkxVc7NlkHYVO+o2I0=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00015.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6cDgyztqYxBVPXCDvTo3S2fGDzSHZIqCeerqio1rOw8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m003%2Fchess_mate3_00016.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dv8SRXPK9KmZ+2ip02896GD6ZCQYbxNH7yEXsVmxF6U=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00000.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Q6Td6xs8FcumEDF9uW5JV0wR1Cc7ojesQn0LLYRGc5s=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00001.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ExCDAHnyY+kORpYsX09KPnRh6pRPRBPzJW0F+Tktsqo=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00002.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9md02RvihxZEnPo2bcF7PWNHpqH59b4p/D/1siET/VE=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00003.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tcSIMI2Rh2zlfi+f82UgeGDNwuAJa7A8l1uEviuYdh8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00004.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R2IvFCHktL9EcxjOUCeDroAPDzS4VBeUEwn2m3Entl0=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00005.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZW8Bm9hZYQDDrvSPGMVkN/aM+t/A6wePQdhCZIGKebA=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00006.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>i1T8m4U3IAwgwx6FfurpHOO84rlGNfX3KX0f17KvQ4Y=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00007.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LmJg9YbOXovrpGeZ0sE/8LDZqqy7dhTy0zd2wngFQCU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00008.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xdWHULe27jQJg9GlOnc0S1bNxlnazykH17UETy0E0ss=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00009.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>x3nCrF0PNHG1P5iJ9yO8B0yGkalIurAuXo8M0vQjseU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00010.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2GFBSo8ZggjNCYPteoUgyXRzbphInJwdNr5XuM+QJFg=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00011.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>it06EIFPoqXMWHqkpnRVxssfOcauZp0nK/YVQzzoBRE=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00012.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nYLGv95MihblnAauzbr9Q4ulEB4OTN82MTfqFrp6YJ8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00013.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6KxfRIwtbr+pQ17Dqdx+VHvW2LJi0seyAQXV54IQRcY=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00014.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>t7owiy7hHmEhcVciudYPPqoZHYjdEotOHkg1KJt3dlU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fchess%2Fpack_m004%2Fchess_mate4_00015.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ez6/dDV41vQseEN/GHc3dyFu3ClXVnF18MWXhh7ZJzI=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_launcher.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VD5b4ypMLRpypDk2d6EPHjAx9yTb2rTv8UKwyTibmUk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_launcher_512.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>stxEISt+ZccILMO3dCLCam4szmaDCyvF0JE34jvZXZo=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_store_alfil.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aDBEJ7xByM1QAYlbN3a6puyVmRWggdEtBz5P6AIVCh0=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_store_caballo.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8OJywqMCMsCHk+SERsR9XD8C31MaZVjpr9p40EZ733Y=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_store_dama.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kwEbEWq0kQtCfbJMpnTB0TjwdnaX37P0jKrUziBXQ/4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_store_frances.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>A6LxYreRoW7Co/iJe8H4QYT+bfc9c/polVAqILEMVek=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_store_peon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>m01PqeRhiXT/mO3V22ISpDVBtWv5zn7KJepZJNhKzeE=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_store_rey.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qYpzRENz6T3F0WCOM5wOEjeJsIBPe/3wT9N/eRs9Pgk=</DigestValue>
+</Reference>
+<Reference URI="images%2Fhome%2Fic_store_torre.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N9j+6fgVhVZ/5B41uWEyyez+YxkRgUtwbPM43ITQpa4=</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HyE9j0SKLYwbq2oKuj4BvVTvZFa+rjscA+l6gCfv93E=</DigestValue>
+</Reference>
+<Reference URI="js%2Fchess%2Fchess_control_tv.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>D5f1sAQEy7THjkVncZtKfvpbpMBikNQVpesuOPb9VVU=</DigestValue>
+</Reference>
+<Reference URI="js%2Fchess%2Fchess_packs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4Jy1DIdEJxAWDq+1tOHRpalenUb26XEbQEm3ApXHU/s=</DigestValue>
+</Reference>
+<Reference URI="js%2Fchess%2Fchess_solutions.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3id4QNh9mtLOMtfvmICDSt7WZSfAGTChtoMxlxY7rQs=</DigestValue>
+</Reference>
+<Reference URI="js%2Fchess%2Fchess_zscript.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KI0qmTtypwuLmu9GSCkWoK3MEQ5PoZKbSi3woHohres=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjqm-docs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jVwxoOQ3EdEfRL8JbpeUzsa+dA1N6nyRjN8lFrz6Vt4=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjquery-1.9.1.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjquery.mobile-1.3.2.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5MWy5CRjqtBst1PQPL64vnegpOlJaa0tDCXJO+GYA7I=</DigestValue>
+</Reference>
+<Reference URI="js%2Fmain.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YHEkEeGF22JbVhFV7ACa7HI7iWduOc3ejufYTRHAlzA=</DigestValue>
+</Reference>
+<Reference URI="lib%2F.DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM=</DigestValue>
+</Reference>
+<Reference URI="lib%2FTVKeyValue.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0baf+9krJPeHBE13PI6t3xbJL8gH+Bc/J9v6e+Rk9RQ=</DigestValue>
+</Reference>
+<Reference URI="pack_T001.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qjF53bAtQkBSggS/mtMJbFwE/Ch9uUgKQbLc2EOHAsc=</DigestValue>
+</Reference>
+<Reference URI="pack_T002.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jtBnQc2+fZ/rHoxlxyrIql5FmOYND7eFWkNwmnrYQb8=</DigestValue>
+</Reference>
+<Reference URI="pack_T003.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uNz6bjuAh5Mw+aHYgxdnHyBHA+ndxMkeRD5EzONm7BI=</DigestValue>
+</Reference>
+<Reference URI="pack_T004.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tD3P8i2+yBjEUflrBm1OskKkYeSGYm7CKgoLJ0zguf0=</DigestValue>
+</Reference>
+<Reference URI="pack_m001.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AQ9mhZlmIucPd4W6rHCafXtz2Ptv2hH8CDtTE4WVF1g=</DigestValue>
+</Reference>
+<Reference URI="pack_m002.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hE7DRMdcEXSv24zAIX4LVmxLCKTI5VwMfCtxsPmUArw=</DigestValue>
+</Reference>
+<Reference URI="pack_m003.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sjXcRnEueRmCpvYvEdCl+6r0OiPMRodoaJMdAtjya4k=</DigestValue>
+</Reference>
+<Reference URI="pack_m004.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2bo++3G9T1GOkOV5hYs8oTok/CexeVeOTzQA4IHAvoA=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lpo8tUDs054eLlBQXiDPVDVKfw30ZZdtkRs1jd7H5K8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+AU5jJ9yc7luETQG4Dp1gRfQYqxgjsSwlmLlDA7HL+ypP22gzoCPrLzQthCveNmGM3m525jEJ7/3P
+oufBY4m7AvzNp09+s0H/qrMfbitsXtDXqUg500/nuoWpKoN6U2bzinjh7NsjOY8vr8civ7oCX487
+LUvRZMl437h0MtBt6K0=
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIDOzCCAiOgAwIBAgIGAVYZzkNfMA0GCSqGSIb3DQEBBQUAMFYxGjAYBgNVBAoMEVRpemVuIEFz
+c29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4gRGV2
+ZWxvcGVycyBDQTAeFw0xMjExMDEwMDAwMDBaFw0xOTAxMDEwMDAwMDBaMIG2MQswCQYDVQQGEwJB
+UjESMBAGA1UECAwJQXJnZW50aW5hMRgwFgYDVQQHDA9DYXBpdGFsIEZlZGVyYWwxIDAeBgNVBAoM
+F3BhYmxvZXplcXVpZWwuZ2l0aHViLmlvMRUwEwYDVQQLDAxDaGVzcyAmIEFwcHMxJzAlBgkqhkiG
+9w0BCQEWGGluY2hhdXN0aS5wcm9kQGdtYWlsLmNvbTEXMBUGA1UEAwwOUGFibG8gRXplcXVpZWww
+gZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK6uKPUettfwK8o78kfMl0mgsXcte3Ag2bkmbcVj
+DV2/xzklBZ1oWhf1izvXwMI4PLLpkTh1LpUxoEasgsmcKrhuP+KiphJwFuq5hN+AAW0s49a1eGxd
+ePqZFILPY44R5k6Xee7C7ame0DWsR6r10SrQsYb4YV7nLq64PoIUvmVBAgMBAAGjMjAwMAwGA1Ud
+EwEB/wQCMAAwCwYDVR0PBAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA0GCSqGSIb3DQEBBQUA
+A4IBAQAw09NBuM1vbSjQ0/Eg9LNGlP26ujuanF0jSl1XsJC5/QK943Dp+hsdDQoNClqvfbWyl/nc
+0lo/xfFOTWEMkUKNTwwsqSUon1xvFGBhI0JSYomMvnhKEvtsza8ktRGR4xSScagahhEWcQ7W80y9
+JLNFaCMjGdoIiNWAINIqh11X5s34XA3MiwJpDZaSVug8xAKIXHZbwvkglYx3qvewbfRAul0TANtV
+t0h8MI9SllmQ7h64OYITfCte5P+D/l5MPYhAPznDc2+l6tFuNjSPmURz2jgQAupg+sxD0O6CIN9N
+WNM0+L1dk3BoSYsooW4VdmM3LksDWUKoGwlVOyTLPGST
+</X509Certificate>
+<X509Certificate>
+MIIDOTCCAiGgAwIBAgIBATANBgkqhkiG9w0BAQUFADBYMRowGAYDVQQKDBFUaXplbiBBc3NvY2lh
+dGlvbjEaMBgGA1UECwwRVGl6ZW4gQXNzb2NpYXRpb24xHjAcBgNVBAMMFVRpemVuIERldmVsb3Bl
+cnMgUm9vdDAeFw0xMjAxMDEwMDAwMDBaFw0yNzAxMDEwMDAwMDBaMFYxGjAYBgNVBAoMEVRpemVu
+IEFzc29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4g
+RGV2ZWxvcGVycyBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVGhRGmMIUyBA7o
+PCz8Sxut6z6HNkF4oDIuzuKaMzRYPeWodwe9O0gmqAkToQHfwg2giRhE5GoPld0fq+OYMMwSasCu
+g8dwODx1eDeSYVuOLWRxpAmbTXOsSFi6VoWeyaPEm18JBHvZBsU5YQtgZ6Kp7MqzvQg3pXOxtajj
+vyHxiatJl+xXrHgcXC1wgyG3buty7u/Fi2mvKXJ0PRJcCjjK81dqe/Vr20sRUCrbk02zbm5ggFt/
+jIEhV8wbFRQpliobc7J4dSTKhFfrqGM8rdd54LYhD7gSI1CFSe16pUXfcVR7FhJztRaiGLnCrwBE
+dyTZ248+D4L/qR/D0axb3jcCAwEAAaMQMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOC
+AQEAnOXXQ/1O/QTDHyrmQDtFziqPY3xWlJBqJtEqXiT7Y+Ljpe66e+Ee/OjQMlZe8gu21/8cKklH
+95RxjopMWCVedXDUbWdvS2+CdyvVW/quT2E0tjqIzXDekUTYwwhlPWlGxvfj3VsxqSFq3p8Brl04
+1Gx5RKAGyKVsMfTLhbbwSWwApuBUxYfcNpKwLWGPXkysu+HctY03OKv4/xKBnVWiN8ex/Sgesi0M
++OBAOMdZMPK32uJBTeKFx1xZgTLIhk45V0hPOomPjZloiv0LSS11eyd451ufjW0iHRE7WlpR6EvI
+W6TFyZgMpQq+kg4hWl2SBTf3s2VI8Ygz7gj8TMlClg==
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#AuthorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#AuthorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-author"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#AuthorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>
