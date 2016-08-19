@@ -6,13 +6,21 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>cBWdgr0AGPAKrqr4wbmPnTjOoCPeRYz1guw4sWTDGC8=</DigestValue>
 </Reference>
+<Reference URI="LICENCE">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/ZOP5Pq+rSMnNvUbZu3e5nPj5an9bOVRs9EPcR3ty2M=</DigestValue>
+</Reference>
+<Reference URI="README">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>j7VTe3tLhd7Rd1T/iN6b73GogmaDeGWBjY9o85mILnM=</DigestValue>
+</Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>iqSw7oZJmRqWok+SbesmQq9eTZWFlXou+hdzJVlcWW0=</DigestValue>
+<DigestValue>OwWx5joMsjA4uOeaAlGy4N4YEw1BPFNkLVrogVj3mOM=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>bMaaptfl1XfRaXZ1k8gyEZ92hBsr8bc7EF4NDHS87aI=</DigestValue>
+<DigestValue>3D+1Zh8fGrWiR6vNfxyUJAmlsuapm2LKD/IVLq0Wts8=</DigestValue>
 </Reference>
 <Reference URI="css%2Fimages%2Fajax-loader.gif">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -712,7 +720,7 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>YHEkEeGF22JbVhFV7ACa7HI7iWduOc3ejufYTRHAlzA=</DigestValue>
+<DigestValue>hDN0wvl/fId1WsPBXwkc0Qq8lHco9oZvCqvnT/qdprg=</DigestValue>
 </Reference>
 <Reference URI="lib%2F.DS_Store">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -763,9 +771,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-dxkUhzr41ZY3k77ima0a4UXpUHQQ+7O6WsomgCHy6qpU4na458FQLVZtyLtznINYgkmPtw+u9gpd
-0MvqssC6HihEGaU0uDaLqmu+/hlw3zLOYLt3BSp9qx0LxV0KXwXujAq66dWhMo7veTP2Bbjx2vYg
-Yf1T0YnhU9xUPu1mlXY=
+pDUmy57334ueNFZs2Nh+2ph27uMw0XTYZ1oes9Gn9AU+Xuxvl4U7o8pIYmNmrNz9qsEU+i6OGO/A
+bDlt3OXGmYD4/c6l5pY5X5HyUvmJwaGYBqakenyNJpVhezQxSO8Gb9NxUNNkxPNfw4PBaJ8EU29k
+VzBITzxFGWBtZrsMtYQ=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

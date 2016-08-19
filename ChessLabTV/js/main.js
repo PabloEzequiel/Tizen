@@ -103,7 +103,7 @@ function handelPageOne(e) {
 
 	switch(e.keyCode){
 
-		case TvKeyCode.KEY_LEFT:
+
 		case TvKeyCode.KEY_UP:
 
       if (index == MAX){
@@ -119,7 +119,7 @@ function handelPageOne(e) {
 
 			break;
 
-    case TvKeyCode.KEY_RIGHT:
+
 	case TvKeyCode.KEY_DOWN:
 
 		if (index == 0){
@@ -140,8 +140,10 @@ function handelPageOne(e) {
     // - B : Next
     // - C : solution
     // - D : Next Package
+	case TvKeyCode.KEY_LEFT:
     case TvKeyCode.KEY_RED:
     case TvKeyCode.KEY_PREVIOUS:
+    case TvKeyCode.KEY_1:
 
       if (isHomePage(index)) {
           console.log(">> TvKeyCode.KEY_RED en Home: Nada");
@@ -150,8 +152,10 @@ function handelPageOne(e) {
       }
       break;
 
+    case TvKeyCode.KEY_RIGHT:  
     case TvKeyCode.KEY_GREEN:
     case TvKeyCode.KEY_NEXT: 
+    case TvKeyCode.KEY_2:
 
       if (isHomePage(index)) {
           console.log(">> TvKeyCode.KEY_GREEN en Home: Nada");
@@ -162,6 +166,7 @@ function handelPageOne(e) {
 
     case TvKeyCode.KEY_YELLOW:
     case TvKeyCode.KEY_PLAY:
+    case TvKeyCode.KEY_3:
     	
       if (isHomePage(index)) {
           console.log(">> TvKeyCode.KEY_YELLOW en Home: Nada");
@@ -176,6 +181,7 @@ function handelPageOne(e) {
 
     case TvKeyCode.KEY_BLUE:
     case TvKeyCode.KEY_INFO:
+    case TvKeyCode.KEY_0:
       button_showInfo();
       break;
 
