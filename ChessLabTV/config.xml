@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/ChessLabTV" version="1.0.0" viewmodes="maximized">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://pabloezequiel.github.io/chess/" version="1.0.0" viewmodes="maximized">
     <tizen:application id="9z4adH8C2s.ChessLabTV" package="9z4adH8C2s" required_version="2.3"/>
+    <author href="https://pabloezequiel.github.io/chess/" email="inchausti@gmail.com">Pablo Inchausti</author>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+    <feature name="http://tizen.org/feature/tv.inputdevice"/>
     <icon src="ic_launcher_96.png"/>
+    <license href="https://github.com/PabloEzequiel/chess/blob/master/ChessLab/LICENSE">GNU GENERAL PUBLIC LICENSE</license>
     <name>ChessLab TV</name>
+    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
     <tizen:profile name="tv-samsung-public"/>
     <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
 </widget>

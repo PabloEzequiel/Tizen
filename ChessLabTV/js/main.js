@@ -1,5 +1,38 @@
 var backEventListener = null;
 
+
+//PABLO
+// ICONS:
+// https://www.samsungdforum.com/TizenUxGuide/02/02_samsung_applications.html
+
+// PABLO
+// To work ok on TV, register keys is mandatory
+// https://www.samsungdforum.com/TizenGuide/tizen3551/index.html
+
+// https://www.samsungdforum.com/TizenGuide/tizen231/index.html
+
+
+/*
+tizen.tvinputdevice.registerKey("ArrowLeft");   //37
+tizen.tvinputdevice.registerKey("ArrowUp");     //38
+tizen.tvinputdevice.registerKey("ArrowRight");  //39
+tizen.tvinputdevice.registerKey("ArrowDown");   //40
+
+tizen.tvinputdevice.registerKey("Enter");       //13
+tizen.tvinputdevice.registerKey("Return");      //10009
+*/
+
+tizen.tvinputdevice.registerKey("ColorF0Red");    //403
+tizen.tvinputdevice.registerKey("ColorF1Green");  //404
+tizen.tvinputdevice.registerKey("ColorF2Yellow"); //405
+tizen.tvinputdevice.registerKey("ColorF3Blue");   //406
+
+tizen.tvinputdevice.registerKey("0");   //48
+tizen.tvinputdevice.registerKey("1");   //49
+tizen.tvinputdevice.registerKey("2");   //50
+tizen.tvinputdevice.registerKey("3");   //51
+
+
 var unregister = function() {
     if ( backEventListener !== null ) {
         document.removeEventListener( 'tizenhwkey', backEventListener );
@@ -10,6 +43,11 @@ var unregister = function() {
 
 //Initialize function
 var init = function () {
+	
+
+
+
+
     // register once
     if ( backEventListener !== null ) {
         return;
@@ -179,11 +217,13 @@ function handelPageOne(e) {
       changePage(index);
 			break;
 
+	/*
     case TvKeyCode.KEY_BLUE:
     case TvKeyCode.KEY_INFO:
     case TvKeyCode.KEY_0:
       button_showInfo();
       break;
+      */
 
 
 		default:
